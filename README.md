@@ -1,4 +1,4 @@
-# Usage
+# Usage [![Node.js Package](https://github.com/shreyash-Pandey-Katni/liveserver-json-database/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/shreyash-Pandey-Katni/liveserver-json-database/actions/workflows/npm-publish.yml)
 
 To run the application, execute the following command:
 
