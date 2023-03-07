@@ -1,6 +1,6 @@
 {
   "name": "liveserver-json-database",
-  "version": "1.0.0",
+  "version": "1.0.0.0.1",
   "description": "LiveServer to use a json file as database",
   "main": "index.js",
   "scripts": {
