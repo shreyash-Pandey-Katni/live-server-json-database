@@ -17,5 +17,13 @@
   },
   "bin": {
     "live-server-json-database": "index.js"
-  }
+  },
+  "keywords": [
+    "live-server",
+    "json",
+    "database",
+    "json-database",
+    "json-server",
+    "live-server-json-database"
+  ]
 }
