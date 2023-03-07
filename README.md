@@ -3,7 +3,7 @@
 To run the application, execute the following command:
 
 ```
-liveserver-json-database -f {file_path} -p {port}
+live-server-json-database -f {file_path} -p {port}
 ```
 
 Once the server is running, you can use the following endpoints to interact with the API:

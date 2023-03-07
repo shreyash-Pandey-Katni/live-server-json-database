@@ -40,10 +40,10 @@ router.post('/addData', (req, res) => {
         const newAccountId = Math.floor(Math.random() * 1000000000 + 1)
         existingAccounts[newAccountId] = req.body
         saveData(existingAccounts)
-        res.send({ success: true, msg: "Account added" })
+        res.send({ success: true, msg: "Data added" })
     } catch (e) {
         console.log(e);
-        res.send({ success: false, msg: "Account not added" })
+        res.send({ success: false, msg: "Data not added" })
     }
 })
 
@@ -54,7 +54,7 @@ router.get('/listData', (req, res) => {
     }
     catch (e) {
         console.log(e);
-        res.send({ success: false, msg: "Account not found" })
+        res.send({ success: false, msg: "Data not found" })
     }
 })
 
@@ -63,11 +63,11 @@ router.get('/deleteData', (req, res) => {
         var existingAccounts = loadData()
         delete existingAccounts[req.body.id]
         saveData(existingAccounts)
-        res.send({ success: true, msg: "Account deleted" })
+        res.send({ success: true, msg: "Data deleted" })
     }
     catch (e) {
         console.log(e);
-        res.send({ success: false, msg: "Account not deleted" })
+        res.send({ success: false, msg: "Data not deleted" })
     }
 })
 
@@ -76,11 +76,11 @@ router.put('/updateData/:id', (req, res) => {
         var existingAccounts = loadData()
         existingAccounts[req.params.id] = req.body
         saveData(existingAccounts)
-        res.send({ success: true, msg: "Account updated" })
+        res.send({ success: true, msg: "Data updated" })
     }
     catch (e) {
         console.log(e);
-        res.send({ success: false, msg: "Account not updated" })
+        res.send({ success: false, msg: "Data not updated" })
     }
 })
 
