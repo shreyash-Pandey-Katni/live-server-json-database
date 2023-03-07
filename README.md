@@ -1,5 +1,7 @@
 # Usage [![Node.js Package](https://github.com/shreyash-Pandey-Katni/liveserver-json-database/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/shreyash-Pandey-Katni/liveserver-json-database/actions/workflows/npm-publish.yml)
 
+[![Github All Releases](https://img.shields.io/github/downloads/shreyash-Pandey-Katni/live-server-json-database/total.svg)]()
+
 To run the application, execute the following command:
 
 ```
