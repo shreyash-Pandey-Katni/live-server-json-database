@@ -1,4 +1,4 @@
-#!/home/rootdaenib/.nvm/versions/node/v18.14.2/bin/node
+#!/usr/bin/env node
 
 const yargs = require("yargs");
 
