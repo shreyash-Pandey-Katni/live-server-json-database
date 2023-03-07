@@ -12,7 +12,7 @@ const options = yargs
 const fs = require('fs');
 const path = require('path');
 const fileName = options.fileName;
-const filePath = path.join(__dirname, fileName);
+const filePath = path.join(process.cwd(), fileName);
 
 const express = require("express")
 const router = express.Router()
