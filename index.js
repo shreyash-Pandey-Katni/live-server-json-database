@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const fileName = options.fileName;
 const filePath = path.join(process.cwd(), fileName);
+const cors = require('cors')
 
 const express = require("express")
 const router = express.Router()
@@ -86,6 +87,7 @@ router.put('/updateData/:id', (req, res) => {
 
 const app = express()
 // middleware
+app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 // route
